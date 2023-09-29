@@ -28,22 +28,6 @@ setTimeout( updateClock,1000)
 
 }
 updateClock();
-
-// music
-// playSong = true;
-// document.getElementById("body").addEventListener("click",one)
-// function one(){
-//     if(playSong){
-//     music();
-// }
-//     playSong=false
-// }
-// function music(){
-// var song = new Audio("music.mp3");
-// song.play();
-// }
-
-
 var day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
  getDay = new Date().getDay()
  currentday= day[getDay]
